@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Money</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .One {
+            background-color: rgb(223, 11, 11);
+            height: 10vh;
+            display: flex;
+            /* justify-content: end; */
+            padding: 40px 18px 0 0;
+            border: 3px Solid Black;
+        }
+
+        h1 {
+            color: rgb(230, 207, 27);
+            padding-left: 50px;
+            padding-bottom: 5px;
+            font-family: 'Roboto', serif;
+            
+            font-size: 28px;
+        }
+
+        nav {
+            display: flex;
+            align-content: center;
+            padding-left: 500px;
+        }
+
+        li {
+            color: white;
+            display: inline;
+        
+            font-size: 20px;
+        
+            display: inline;
+            padding-left: 10px;
+            padding-top: 5px;
+            font-family: 'Roboto', serif;
+
+        }
+
+        #btn {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        .two {
+            background-color: rgb(197, 18, 206);
+            color: white;
+            display: flex;
+            justify-content: center;
+            height: 60vh;
+            padding-top: 80px;
+        }
+        form{
+            background-color:rgb(123, 11, 97) ;
+            color:rgb(230, 207, 27) ;
+            border: 2px Solid white;
+            height: 40vh;
+            width: 40vw;
+            text-align: center;
+            padding-top: 50px;
+            font-size: 40px;
+            
+        }
+        footer{
+            text-align: center;
+            padding-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="One">
+        <h1 id="Sparks">The Sparks Foundation Bank</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="btn">Home</a></li>
+                <li>Send Money</li>
+                <li><a href="next.html" id="btn">All customers</a></li>
+                <li>Transactions</li>
+                <li>Contact Us</li>
+
+            </ul>
+            
+        </nav>
+    </header>
+    <div class="two">
+        <form action="Send Money">SEND MONEY
+           <div ><input type="text" placeholder=" Sender's  ID "></div> 
+           <div> <input type="text" placeholder=" Reciever's ID"></div>
+           <div> <input type="text" placeholder="Amount To Transfer"></div> 
+           <div> <input type="button" value="Send Money" onclick="alert('Transaction Successfull!!')"></div> 
+            </form></div>
+            <footer class="four">Copyright &#169 The Sparks Foundation</footer>
+        
+        </body>
+
+</html>
